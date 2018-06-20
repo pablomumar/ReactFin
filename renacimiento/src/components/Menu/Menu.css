@@ -1,0 +1,47 @@
+.menuContainer{
+    height: 130px;
+    padding: 48px 60px 25px;
+    background-color: white;
+}
+
+.menuLogoCont{
+    float: left;
+    height: 60px;
+    width: 30%;
+}
+
+.menuLogo{
+    height: 60px;
+    width: auto;
+}
+
+.menuElemCont {
+    float: right;
+    width: 68%;
+}
+
+.menuElemCont ul{
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+}
+
+.menuElemCont ul li{
+    padding-top: 2%;
+    width: 20%;
+}
+
+.menuElemCont ul li a{
+    float: right;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menuElemCont ul li a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+}

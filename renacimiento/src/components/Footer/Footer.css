@@ -1,0 +1,37 @@
+.footerContainer{
+    height: 230px;
+    padding: 60px 15% 40px;
+    width: 100vw;
+    display: inline-flex;
+    background-color: #f2f2f2;
+}
+
+.footerTextCont{
+    width: 60%;
+}
+
+.footerBtnCont{
+    float: right;
+    width: 35%;
+}
+
+.footerBtn{
+    height: 70%;
+    text-align: center;
+}
+
+.footerBtn p{
+    padding: 1.4em calc(1.44em - .18em) 1.4em 1.44em;
+    background-color: orangered;
+}
+
+.footerCenter {
+    display: block;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.footerCenter p:first-child{
+    margin-bottom: 5%;
+}

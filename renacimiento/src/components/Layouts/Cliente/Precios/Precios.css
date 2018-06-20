@@ -1,0 +1,242 @@
+.inicio{
+    width: 100%;
+    height: 110vh;
+    background-image: url('../../../../assets/images/content-bg/prueba1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.inicio div{
+    position: relative;
+}
+
+.inicio div>div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.altura{
+    height: 100%;
+    text-align: center;
+}
+
+.altura:first-child{
+    border-right: #fafafa 4px solid;
+}
+.altura .title{
+    font-family: Montserrat;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 30px;
+}
+.altura .texto{
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    width: 200%;
+    transform: translateX(-25%);
+}
+.altura .entrada{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.submenu{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: max-content;
+}
+
+.submenu>div{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.submenu div div a{
+    text-decoration: none;
+}
+
+
+/*Hotel Section
+_______________________________________________________*/
+.sliderHotel{
+    height: max-content;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sliderHotel h2{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: Montserrat, Helvetica;
+}
+
+.sliderHotel>div{
+    height: 80vh;
+    box-shadow: -4px 6px 10px #ddd;
+}
+
+.sliderHotel .leftSide, .sliderHotel .rightSide{
+    height: 100%;
+}
+
+.sliderHotel .leftSide{
+    position: relative;
+    text-align: left;
+}
+
+.sliderHotel .leftSide>h3{
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    height: max-content;
+    left: 10%;
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.sliderHotel .leftSide>p{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 30%;
+    height: max-content;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.sliderHotel .leftSide>small{
+    text-align: right;
+    position: absolute;
+    width: 80%;
+    left: 5%;
+    bottom: 30%;
+    height: max-content;
+}
+
+.sliderHotel .leftSide .controles{
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    right: 1%;
+}
+
+.sliderHotel .leftSide .controles>p {
+    width: 33%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/*Restaurante Section
+_______________________________________________________*/
+.restauranteContainer{
+    min-height: 150vh;
+    height: max-content;
+    text-align: center;
+}
+.restauranteContainer h2{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Montserrat, Helvetica;
+}
+.restauranteContainer .removingPad{
+    padding-bottom: 0 !important;
+    margin-bottom: 5px !important;
+}
+.restauranteContainer small{
+    margin-bottom: 20px;
+    width: 100vw;
+}
+.restauranteContainer>div:first-child{
+    padding-bottom: 50px;
+}
+.restauranteContainer .flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-bottom: 75px;
+}
+.restauranteContainer .midDiv{
+    margin-bottom: 20px;
+}
+.restauranteContainer >div:last-child{
+    height: 300px;
+    position: relative;
+}
+.restauranteContainer .menus{
+    min-height: 400px;
+    padding: 15px 40px;
+    background-color: #fad9b7;
+    width: 28%;
+    box-shadow: -2px 6px 12px #ddd;
+}
+.restauranteContainer .menus>div:first-child{
+    padding-top: 0;
+}
+.restauranteContainer .menus>div:last-child{
+    padding-bottom: 0;
+}
+.restauranteContainer .menus>div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.restauranteContainer .flexAroundLast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.restauranteContainer .platoLeft{
+    position: absolute;
+    left:0;
+    bottom: 50%;
+    height: 150px;
+    width: 20%;
+    transform: translateY(50%);
+}
+.restauranteContainer .platoMain{
+    position: absolute;
+    height: 300px;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+}
+.restauranteContainer .platoRight{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    height: 150px;
+    width: 20%;
+    transform: translateY(50%);
+}
+
+.platoLeft>h3, .platoMain>h3, .platoRight>h3{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    width: 120%;
+}
+.platoMain>h3{
+    font-size: 32px;
+    bottom: -80px;
+}
+.platoLeft>h3, .platoRight>h3{
+    font-size: 12px;
+    bottom: -50px;
+}

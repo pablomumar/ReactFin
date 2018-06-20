@@ -1,0 +1,116 @@
+.cliHomeContent2{
+    height: 300px;
+    position: relative;
+    padding: 0 80px;
+}
+
+.cliHomeContent1{
+    margin-top: 20px;
+    background: url("../../../assets/images/content-bg/localiz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 22%;
+    height: 500px;
+    position: relative;
+}
+
+.cliHomeContent3{
+    background: url("../../../assets/images/content-bg/bg2-prueba.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    background-position: center bottom;
+}
+
+.cliHomeContent1 .cliHomeTextContent{
+    max-width: 50vw;
+}
+
+.cliHomeContent2 .cliHomeTextContent{
+    width: max-content !important;
+}
+.cliHomeTextContent{
+    min-width: 45vw;
+    max-width: 70vw;
+    width: max-content;
+    background-color: rgba(255,255,255,.85);
+    padding: 65px 60px;
+    position: absolute;
+    top: 35%;
+    box-shadow: 0 0 12px #999;
+}
+
+.cliHomePosition2{
+    max-width: 55%;
+    top: -25%;
+}
+
+.cliHomeTitle{
+    position: absolute;
+    padding: 0 60px;
+    top: 18%;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+}
+
+.cliHomeTitlePos{
+    top: 30%;
+}
+
+.cliHomeImgCont div{
+    position: absolute;
+    width: 40%;
+    max-height: 150px;
+    bottom: 25%;
+    left: 12vw;
+}
+
+.cliHomeImgCont div img{
+    height: 150px;
+    width: auto;
+}
+
+.textOver h3{
+    position: absolute;
+    top: -22%;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+}
+
+.imgBgPar{
+    background-image: url('../../../assets/images/content-bg/parallaxHomeText.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    position: relative;
+}
+
+.imgBgPar>div{
+    height: max-content;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    padding-bottom: 40px;
+}
+
+.imgBgPar div h3{
+    letter-spacing: 8px;
+    font-family: Scriptina;
+    font-weight: bolder;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .imgBgPar {
+        background-attachment: scroll;
+    }
+}

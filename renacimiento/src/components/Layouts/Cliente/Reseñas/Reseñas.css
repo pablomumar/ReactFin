@@ -1,0 +1,13 @@
+.comentCont{
+    height: max-content;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.comentCont>h2{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: Montserrat, Helvetica;
+    text-align: center;
+}

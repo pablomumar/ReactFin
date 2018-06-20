@@ -1,0 +1,32 @@
+@keyframes fade-out{
+    from {opacity:1;}
+    to {opacity: 0;}
+}
+
+@keyframes fade-in-display{
+    from {display:none; opacity:0;}
+    to {display:block; opacity:1;}
+}
+
+@keyframes fade-in{
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+.desaparece{
+    animation-name: fade-out;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.apareceSoloOpacity{
+    animation-name: fade-in;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+.aparece{
+    animation-name: fade-in-display;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}

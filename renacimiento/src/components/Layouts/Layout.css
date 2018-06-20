@@ -1,0 +1,15 @@
+.Test {
+    height: 300px;
+    width: 100%;
+    background-color: #eee;
+    margin: 0;
+}
+
+.textRight{
+    right: 0;
+    left:auto;
+}
+
+.bgWhite{
+    background-color: white !important;
+}

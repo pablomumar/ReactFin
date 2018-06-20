@@ -1,0 +1,62 @@
+.reservaCont{
+    height: max-content;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.reservaCont>h2{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: Montserrat, Helvetica;
+    text-align: center;
+}
+
+.formCont{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+.almostForm{
+    border: 1px #eee solid;
+    padding: 30px 50px;
+    margin-top: 20px;
+}
+
+.formCont div>div{
+    text-align: center;
+}
+
+.formCont div>div p.active{
+    color: black;
+    border-bottom: 1px black solid;
+}
+.formCont div>div p.inactive{
+    color: #eee;
+    border-bottom: 1px #eee solid;
+}
+
+.formTitle{
+    width: 100%;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: Montserrat, Helvetica;
+    text-align: center;
+}
+
+.fullWidthCentered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+/*
+Paleta: https://gyazo.com/216cb6e8f16905879e64f4ddb5f92b66
+
+Otra: https://gyazo.com/e413c402723c64fadab8e62f851244cf
+*/

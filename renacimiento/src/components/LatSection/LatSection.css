@@ -1,0 +1,15 @@
+.contText{
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+    width: 65%;
+    min-height: 15%;
+    max-height: 100%;
+    padding: 6% 2%;
+    top: 25%;
+    left: 0;
+}
+
+.right{
+    right: 0;
+    left:auto;
+}

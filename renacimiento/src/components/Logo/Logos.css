@@ -1,0 +1,14 @@
+.LogoDiv{
+    position: absolute;
+    right: 6%;
+    top: 25px;
+    z-index: 100;
+    background-color: rgba(255,255,255,.4);
+    box-shadow: 0 0 15px rgba(255,255,255,.7);
+    padding: 0;
+}
+
+.LogoImg{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,50 @@
+.right {
+    float: right;
+    text-align: right;
+}
+
+.left{
+    float: left;
+    text-align: left;
+}
+
+.mainCont{
+    width: 100%;
+    height: max-content;
+    display: block;
+}
+
+.comentContainer{
+    width: 70%;
+    background-color: #eee;
+    min-height: 100px;
+    padding: 30px 80px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+.comentContainer>p{
+    padding-bottom: 20px;
+}
+
+.contServ {
+    height: max-content;
+    width: 100%;
+    position: relative;
+}
+.contServ>small:first-child{
+    position: absolute;
+    left: 0;
+}
+.contServ>small{
+    width: 50%;
+}
+.contServ>small:last-child{
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+.right .contServ>small:first-child{
+    text-align: left;
+}

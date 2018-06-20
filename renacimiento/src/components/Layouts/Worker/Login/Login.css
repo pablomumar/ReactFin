@@ -1,0 +1,22 @@
+.mainCont{
+    padding: 30px 80px;
+}
+.mainCont>h1{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: Montserrat, Helvetica;
+    text-align: center;
+}
+.formCont{
+    border: 1px #eee solid;
+    padding: 30px 50px;
+    width: 40%;
+    margin: auto;
+}
+.fullWidthCentered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
